@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+  <center>
+    <h1>REGISTRATION FORM</h1>
+    <hr>
+    <form style="border: 2px solid black; padding: 20px; width: 650px; text-align: left;">
+      <table cellpadding="10">
+
+        <!-- 1. Name (Text) -->
+        <tr>
+          <td><label><b>Name:</b></label></td>
+          <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+
+        <!-- 2. Email -->
+        <tr>
+          <td><label><b>Email:</b></label></td>
+          <td><input type="email" placeholder="Enter your email"></td>
+        </tr>
+
+        <!-- 3. Password -->
+        <tr>
+          <td><label><b>Password:</b></label></td>
+          <td><input type="password" placeholder="Enter your password"></td>
+        </tr>
+
+        <!-- 4. Mobile No (Tel) -->
+        <tr>
+          <td><label><b>Mobile No:</b></label></td>
+          <td><input type="tel" placeholder="Enter mobile number"></td>
+        </tr>
+
+        <!-- 5. Age (Number) -->
+        <tr>
+          <td><label><b>Age:</b></label></td>
+          <td><input type="number" placeholder="Enter your age"></td>
+        </tr>
+
+        <!-- 6. Gender (Radio) -->
+        <tr>
+          <td><label><b>Gender:</b></label></td>
+          <td>
+            <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+            <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <!-- 7. Date of Birth -->
+        <tr>
+          <td><label><b>Date of Birth:</b></label></td>
+          <td><input type="date"></td>
+        </tr>
+
+        <!-- 8. Department (Dropdown) -->
+        <tr>
+          <td><label><b>Department:</b></label></td>
+          <td>
+            <select>
+              <option value="">--Select Department--</option>
+              <option value="cse">Computer Science</option>
+              <option value="ece">Electronics</option>
+              <option value="eee">Electrical</option>
+              <option value="mech">Mechanical</option>
+              <option value="civil">Civil</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- 9. Skills (Checkbox) -->
+        <tr>
+          <td><label><b>Skills:</b></label></td>
+          <td>
+            <input type="checkbox" id="html"> <label for="html">HTML</label>
+            <input type="checkbox" id="css"> <label for="css">CSS</label>
+            <input type="checkbox" id="js"> <label for="js">JS</label>
+          </td>
+        </tr>
+
+        <!-- 10. Upload File -->
+        <tr>
+          <td><label><b>Upload File:</b></label></td>
+          <td><input type="file"></td>
+        </tr>
+
+        <!-- 11. Favorite Color -->
+        <tr>
+          <td><label><b>Favorite Color:</b></label></td>
+          <td><input type="color"></td>
+        </tr>
+
+        <!-- 12. Website (URL) -->
+        <tr>
+          <td><label><b>Website:</b></label></td>
+          <td><input type="url" placeholder="https://example.com"></td>
+        </tr>
+
+        <!-- 13. Search -->
+        <tr>
+          <td><label><b>Search:</b></label></td>
+          <td><input type="search" placeholder="Search here..."></td>
+        </tr>
+
+        <!-- 14. Experience (Range) -->
+        <tr>
+          <td><label><b>Experience (0-10):</b></label></td>
+          <td><input type="range" min="0" max="10"></td>
+        </tr>
+
+        <!-- 15. Available Month -->
+        <tr>
+          <td><label><b>Available Month:</b></label></td>
+          <td><input type="month"></td>
+        </tr>
+
+        <!-- 16. Available Week -->
+        <tr>
+          <td><label><b>Preferred Week:</b></label></td>
+          <td><input type="week"></td>
+        </tr>
+
+        <!-- 17. Available Time -->
+        <tr>
+          <td><label><b>Preferred Time:</b></label></td>
+          <td><input type="time"></td>
+        </tr>
+
+        <!-- 18. Image Button -->
+        <tr>
+          <td><label><b>Image Button:</b></label></td>
+          <td><input type="image" src="/image 22.jpg" alt="Submit" width="100" height="40"></td>
+        </tr>
+
+        <!-- 19. Hidden -->
+        <tr>
+          <td><label><b>Hidden Field:</b></label></td>
+          <td><input type="hidden" value="12345"></td>
+        </tr>
+
+        <!-- 20. Button -->
+        <tr>
+          <td><label><b>Action Button:</b></label></td>
+          <td><input type="button" value="Click Me"></td>
+        </tr>
+
+        <!-- 21. Submit & Reset -->
+        <tr>
+          <td><label><b>Actions:</b></label></td>
+          <td>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+          </td>
+        </tr>
+
+      </table>
+    </form>
+  </center>
+</body>
+</html>
